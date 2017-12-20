@@ -2,7 +2,11 @@
 # encoding: utf-8
 
 def uploadpy():
-	print 'upload test'
+	b = 23
+	if b is 23:
+		print 'upload test'
+	else:
+		return None
 
 def pypy():
 	a = 13
