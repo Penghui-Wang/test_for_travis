@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # encoding: utf-8
-
+c = 'j'
 def uploadpy():
 	b = 23
 	if b is 23:
