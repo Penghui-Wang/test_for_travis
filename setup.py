@@ -4,18 +4,18 @@
 from setuptools import setup
 
 setup(
-	name = 'ahahahaha',
+	name = 'test_for_travis',
 	version = '0.1',
 	author = 'wph',
 	author_email = 'wangpenghui@gene.ac',
 	url = 'https://testupload.test',
-	description = 'test how to submit a project to pypi',
-	packages = ['uploadpy'],
+	description = 'test how to submit a project to pypi and test how to use the travis',
+	packages = ['test_for_travis'],
 	install_requires = [],
 	entry_points = {
 		'console_scripts':[
-			'uploadpy = uploadpy:uploadpy',
-			'pypy = uploadpy:pypy'
+			'uploadpy = test_for_travis:uploadpy',
+			'pypy = test_for_travis:pypy'
 		]
 	}
 )
