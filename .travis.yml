@@ -9,7 +9,7 @@ install:
 
 # command to run tests
 script:
-  - coverage run tests/test_init.py 
+  - coverage run test_for_travis/test_init.py 
 
 after_success:
   - codecov
